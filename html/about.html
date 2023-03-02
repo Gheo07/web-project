@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Greenwich Travel Agency - Tourist Guidance</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h2 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Greenwich Travel Agency</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="../index.html" class="nav-item nav-link">Home</a>
+                    <a href="../html/service.html" class="nav-item nav-link">Services</a>
+                    <a href="../html/about.html" class="nav-item nav-link active">Tourist Guidance</a>
+                    <a href="../html/contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Tourist Guidance</h1>
+                    <p class="h5 text-white m-0">It is an extensive resource for those looking to plan a trip with
+                        ease. We provides a comprehensive guide to some popular Hotels, Train Stations, and buse
+                        Stations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- Hotels info start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Hotels</h5>
+                <h1 class="mb-0">Popular hotels in city of London, UK</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/savoyhotel.jpg" style="object-fit: cover;"
+                            alt="hotel-pic">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="  text-white"> Price start from £3,000 </p>
+                            </div>
+                            <h4>Royal Savoy</h4>
+                            <p class="mb-0">A luxurious, iconic hotel located in the heart of London with stunning views
+                                of the River Thames.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="text-white">Price start from £1407.02</p>
+                            </div>
+                            <h4>Ritz London</h4>
+                            <p class="mb-0">A five-star hotel known for its elegant decor, fine dining, and historic
+                                location in Piccadilly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/Ritzlondon.jpeg" style="object-fit: cover;" alt="pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/langham.webp" style="object-fit: cover;" alt="pic">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="  text-white"> Price start from £485.04 </p>
+                            </div>
+                            <h4>Langham, London</h4>
+                            <p class="mb-0">A luxury hotel situated in the West End, known for its lavish accommodations
+                                and exceptional service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="text-white">Price start from £1407.02</p>
+                            </div>
+                            <h4>The Dorchester</h4>
+                            <p class="mb-0">A classic luxury hotel located in Mayfair, known for its elegant rooms,
+                                exceptional service, and award-winning dining options.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/dorchesterlondon.jpg" style="object-fit: cover;"
+                            alt="pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+
+            <div class="row g-5">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/shangrila.jpg" style="object-fit: cover;" alt="pic">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="  text-white"> Price start from £560.18 </p>
+                            </div>
+                            <h4>Shangri-La The Shard</h4>
+                            <p class="mb-0">A modern, luxury hotels, located at 31 St Thomas St, London SE1 9QU, United
+                                Kingdoms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="text-white">Price start from £192.73</p>
+                            </div>
+                            <h4>Park Plaza Westminster Bridge</h4>
+                            <p class="mb-0"> A contemporary hotel located near the London Eye, offering stylish
+                                accommodations and excellent amenities..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/parkplaza.webp" style="object-fit: cover;" alt="pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/grosvenorhouse.jpg" style="object-fit: cover;" alt="pic">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="  text-white"> Price start from £379.78 </p>
+                            </div>
+                            <h4>The Grosvenor House, A JW Marriott Hotel</h4>
+                            <p class="mb-0">A historic luxury hotel situated in Mayfair, offering elegant rooms, fine
+                                dining, and exceptional service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="text-white">Price start from £133.90</p>
+                            </div>
+                            <h4>CitizenM Tower of London</h4>
+                            <p class="mb-0">A trendy and modern hotel located in the 40 Trinity Square, London, offering
+                                affordable rates and stylish accommodations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/citizenM-Tower.jpg" style="object-fit: cover;" alt="pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                            src="../img/touristguidance/hotels/premier-inn.jpg" style="object-fit: cover;" alt="pic">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                style="width: 200px; height: 60px;">
+                                <p class="  text-white"> Price start from £77.96 </p>
+                            </div>
+                            <h4>Premier Inn London City (Aldgate) Hotel</h4>
+                            <p class="mb-0">A budget-friendly hotel located in the 66 Alie St, East End of London,
+                                offering clean and comfortable accommodations at affordable rates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hotels info End  -->
+
+    <!--Bus stations Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Bus Stations</h5>
+                <h1 class="mb-0">There are some Major Bus Stations located in the city of London</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/busstations/KingsCross.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">King's Cross Bus Station</h4>
+                        <p class="m-0">Located near King's Cross Station, it serves the north London area.
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/busstations/liverpool.webp" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Liverpool Street Bus Station</h4>
+                        <p class="m-0">Located in the City of London, it serves the financial district and the east
+                            London area.
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/busstations/padingtonstation.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Paddington Bus Station</h4>
+                        <p class="m-0"> Located in Paddington, it serves the west London area.
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/busstations/stratfordstation.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Stratford Bus Station</h4>
+                        <p class="m-0">Located in Stratford, it is the second busiest bus station in London, serving the
+                            east London area.
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/busstations/victoria_coach.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Victoria Bus Station</h4>
+                        <p class="m-0">Located in the Victoria area of Westminster, it is the busiest bus station in
+                            London with over 2,000 buses per day.
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/busstations/LondonWaterloo.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Waterloo Bus Station </h4>
+                        <p class="m-0">Located near Waterloo Station, it serves the south London area.
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Bus stations End-->
+
+    <!-- Underground stations start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Underground Stations</h5>
+                <h1 class="mb-0">Some Major Underground Stations located in the city of London</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/UndergroundStataion/baker-street.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Baker Street</h4>
+                        <p class="m-0"><b>Address:</b> Marylebone Road, London NW1 5LA
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/UndergroundStataion/Oxford_Circus.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Oxford Circus </h4>
+                        <p class="m-0 "><b>Address:</b> Oxford Street, London W1B 3AG
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/UndergroundStataion/PICARDilly-Circus.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Piccadilly Circus </h4>
+                        <p class="m-0"> <b>Address:</b> Piccadilly, London W1J 9HS
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/UndergroundStataion/Tottenham_court.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Tottenham Court Road</h4>
+                        <p class="m-0"><b>Address:</b> Oxford Street, London W1D 1AN
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/UndergroundStataion/leicester-Square.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Leicester Square</h4>
+                        <p class="m-0"><b>Address:</b>> Cranbourn Street, London WC2H 0AP
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/UndergroundStataion/CanaryWharf.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Canary Wharf</h4>
+                        <p class="m-0"><b>Address:</b> North Colonnade, London E14 5AB
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Underground stations End -->
+
+    <!-- Overground stations start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Underground Stations</h5>
+                <h1 class="mb-0">Major Overground Stations in the city of London</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/OvergroundStations/Whitechapel.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Whitechapel</h4>
+                        <p class="m-0"><b>Address:</b> 277 Whitechapel Road, London E1 1BY
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/OvergroundStations/Shoreditch.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Shoreditch High Street</h4>
+                        <p class="m-0 "><b>Address:</b> Bethnal Green Road, London E1 6GY
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/OvergroundStations/Canada_Water.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Canada Water</h4>
+                        <p class="m-0"> <b>Address:</b> Deal Porters Way, London SE16 7BB
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/OvergroundStations/Rotherhithe.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3"> Rotherhithe</h4>
+                        <p class="m-0"><b>Address:</b> Railway Avenue, London SE16 2HF
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/OvergroundStations/Dalstonjunction.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Dalston Junction</h4>
+                        <p class="m-0"><b>Address:</b>> Dalston Lane, London E8 3DF
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="pic">
+                            <img src="../img/touristguidance/OvergroundStations/highbury-islington.jpg" alt="pic">
+                        </div>
+                        <h4 class="mb-3">Highbury & Islington</h4>
+                        <p class="m-0"><b>Address:</b> Holloway Road, London N7 8GR
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Overground stations End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-7 footer-about">
+                    <div
+                        class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h2 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Greenwich Travel</h2>
+                        </a>
+                        <p class="mt-3 mb-4"> Greenwich is dedicated to making your travel experience stress-free and
+                            enjoyable. They offer a range of travel services including flight bookings, hotel
+                            reservations, tour packages, and travel insurance. Greenwich understands that every traveler
+                            is unique, and they tailor their services to meet each client's individual needs.</p>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                <button class="btn btn-dark">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">abc Street, London, UK</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0">greenwich@gmail.com</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <p class="mb-0">+012 345 67890</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i
+                                        class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i
+                                        class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i
+                                        class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i
+                                        class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="./index.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="./html/service.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>
+                                    Our Services</a>
+                                <a class="text-light mb-2" href="./html/about.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Tourist Guidance</a>
+                                <a class="text-light" href="./html/contact.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="./index.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="./html/service.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="./html/about.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Tourist Guidance</a>
+                                <a class="text-light" href="./html/contact.html"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Greenwich Travel Agency</a>.
+                            All
+                            Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
